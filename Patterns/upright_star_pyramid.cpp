@@ -11,10 +11,7 @@ void printTriangle(int n) {
             for (int j = 2 * n - (2 * i + 1); j > 0; j--) {
                 cout << "*";
             }
-            //space
-            for (int j = 0; j < i; j++) {
-                cout << " ";
-            }
+
             cout << endl;
         }
 }
