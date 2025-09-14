@@ -34,6 +34,7 @@ Node* deletek(Node* head, int k) {
         head= head->next;
         delete temp;
         return head;
+
     }
     int count =0;
     Node* temp= head;

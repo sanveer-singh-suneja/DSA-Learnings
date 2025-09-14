@@ -13,6 +13,7 @@ public:
     Node(int data1) {
         data = data1;
         next = nullptr;
+
     }
 };
 Node* convertArr2LL(vector<int> &arr) {

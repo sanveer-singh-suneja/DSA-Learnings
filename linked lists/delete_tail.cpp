@@ -50,4 +50,5 @@ int main () {
     Node* head = convertArr2LL(arr);
     head = deleteTail(head);
     printLL(head);
+
 }
